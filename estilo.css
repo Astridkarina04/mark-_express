@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito: wght@400;800&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'nunito', sans-serif;
+	font-size: 20px;
+}
+
+body{
+	b
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between; /* Distribuye las secciones al principio y al final */
+}
+
+.seccion1 {
+	background: url('./imagenes/fondo morado.png');
+	height: 91vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.seccion2 {
+	background: url('./imagenes/jiji.png');
+	height: 91vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.seccion1, .seccion2 {
+  flex: 1; 
+  padding: 40vh;
+  
+}
+
+.supermercado{
+	color: #fff;
+	font-size: 60px;
+	width:50%;
+	text-align: rigth;
+}
+
+h1 {
+	transform: rotate(odeg);
+	font-size:25px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-position:inline;
+	color: #fff;
+	white-space: nowrap;
+}
+
+h2 {
+	font-size: 60px;
+}
+
+p {
+	font-size: 30px;
+	line- height: 30px;
+	width: 50%;
+	color: #fff;
+	font-family: 'didot';
+	white-space: nowrap;
+}
+.header{
+	background: url('./imagenes/fondo verde.png');
+	display: flex;
+	background-size: cover;
+	ackground-repeat: no-repeat;
+	justify-content: space-between;
+	align-items: center;
+	height: 85px;
+	padding: 5px 150px;
+}
+.header .logo{
+	cursor: pointer;
+}
+
+.header .logo img{
+	height: 70px;
+	width: auto;
+	transition: all 0.3;
+	border: 50px;
+	border-radius: 150px;
+}
+
+.header .logo img:hover{
+	transform: scale(1.2);
+}
+
+.header .nav-links{
+	list-style: none;
+}
+
+.header .nav-links li{
+	display: inline-block;
+	padding: 15px 20px;
+
+}
+
+.header .nav-links li:hover{
+	transform: scale(1.1);
+}
+
+.header .nav-links a{
+	font-size: 700;
+	color: #eceff1;
+	text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+	color: #983EDB ;
+}
+
+.header .btn button{
+	font-weight: 700;
+	color: #000000;
+	padding: 15px 20px;
+	background: #98E3B7;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s aese 0s;
+}
+
+.header .btn button:hover{
+	background-color: #890CFF;
+	color: #000000;
+	transform: scale(1.1);
+	padding: 20px;
+}
+
+
+
